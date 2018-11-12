@@ -532,8 +532,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
-    libbtnv \
     libantradio \
+    libbtnv \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
@@ -542,7 +542,7 @@ PRODUCT_PACKAGES += \
     ims \
     QtiTelephonyService \
     qcrilmsgtunnel \
-    TimeService \
     qti-telephony-common \
     QtiTelephonyServicelibrary \
-    qcrilhook
+    qcrilhook \
+    TimeService
